@@ -1,0 +1,11 @@
+.rating-container {
+    display: flex;
+}
+.rating-color {
+    color: #FFD700;
+}
+.total-raiting {
+    color: grey;
+    font-size: 12px;
+    margin: auto 0;
+}

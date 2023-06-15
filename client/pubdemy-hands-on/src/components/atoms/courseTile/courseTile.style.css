@@ -1,0 +1,40 @@
+.tile-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  height: fit-content;
+  width: 250px;
+  .rating-container {
+    margin: 0;
+  }
+}
+.course-link {
+  text-decoration: none;
+  color: black;
+}
+.course-title {
+  margin-top: 4px;
+  font-weight: 700;
+}
+.trainer-name {
+  font-weight: 500;
+  color: grey;
+}
+.course-actual-price {
+  margin-left: 10px;
+  color: grey;
+  width: fit-content;
+}
+.course-discount-price {
+  font-weight: 700;
+}
+.price-container {
+  display: flex;
+  flex-direction: row;
+}
+.special-status {
+  color: black;
+  background-color: rgb(226, 241, 160);
+  width: fit-content;
+  padding: 4px;
+}

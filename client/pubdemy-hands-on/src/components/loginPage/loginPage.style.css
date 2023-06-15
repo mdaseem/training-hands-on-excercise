@@ -1,0 +1,49 @@
+.login-page-container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin-top: 50px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.form-inputs {
+  border: 1px solid grey;
+  margin-bottom: 6px;
+  width: 100%;
+  padding: 0;
+}
+.other-options {
+  padding: 2px 4px;
+  border: 1px solid grey;
+  margin-bottom: 6px;
+  font-weight: 700;
+}
+.common-style {
+  padding: 10px;
+  box-sizing: border-box;
+}
+.email-icon {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.form-button {
+  background-color: rgb(185, 29, 233);
+}
+.login-description {
+  font-weight: 700;
+}
+.dividing-line::before {
+  content: "";
+  color: green;
+  display: block;
+  background: grey;
+  height: 1px;
+  margin-bottom: 10px;
+}
+.error-messsage {
+  font-size: 10px;
+}
